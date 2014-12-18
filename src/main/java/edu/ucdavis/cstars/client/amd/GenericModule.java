@@ -1,7 +1,6 @@
 package edu.ucdavis.cstars.client.amd;
 
-public class GenericModule implements AmdModuleDefinition
-{
+public class GenericModule implements AmdModuleDefinition {
   private final String name;
   private final String argAlias;
   

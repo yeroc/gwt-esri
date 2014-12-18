@@ -1,8 +1,7 @@
 package edu.ucdavis.cstars.client.amd;
 
 
-public enum DojoModule implements AmdModuleDefinition
-{
+public enum DojoModule implements AmdModuleDefinition {
   DOM_READY("dojo/domReady!", null);
 
   private final String name;

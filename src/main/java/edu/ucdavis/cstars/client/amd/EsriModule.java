@@ -1,6 +1,5 @@
 package edu.ucdavis.cstars.client.amd;
 
-
 /**
  * Define modules with argument aliases as per documentation at
  * https://developers.arcgis.com/javascript/jsapi/argument_aliases.html.
@@ -8,6 +7,7 @@ package edu.ucdavis.cstars.client.amd;
 public enum EsriModule implements AmdModuleDefinition
 {
   ESRI_MAP("esri/map", "Map"),
+  ESRI_LAYERS_FEATURE("esri/layers/FeatureLayer", "FeatureLayer"),
   ESRI_DIJIT_OVERVIEW("esri/dijit/OverviewMap", "OverviewMap");
 
   private final String name;

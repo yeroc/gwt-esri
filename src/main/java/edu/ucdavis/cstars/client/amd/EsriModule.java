@@ -8,6 +8,8 @@ public enum EsriModule implements AmdModuleDefinition
 {
   ESRI_MAP("esri/map", "Map"),
   ESRI_LAYERS_FEATURE("esri/layers/FeatureLayer", "FeatureLayer"),
+  ESRI_LAYERS_GRAPHIC("esri/layers/GraphicsLayer", "GraphicsLayer"),
+  ESRI_TOOLBARS_DRAW("esri/toolbars/draw", "Draw"),
   ESRI_DIJIT_OVERVIEW("esri/dijit/OverviewMap", "OverviewMap");
 
   private final String name;
